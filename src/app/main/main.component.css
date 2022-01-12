@@ -1,0 +1,32 @@
+.card-content {
+  display: flex;
+  padding-left: 16px;
+}
+
+.card-content p {
+  margin-left: 10px;
+}
+
+.card-content img {
+  object-fit: cover;
+  max-width: 200px;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  min-width: 10%;
+  width: auto;
+}
+
+td:last-child, th:last-child {
+  text-align: right;
+}
+
+.mat-row:hover .mat-cell {
+  background: whitesmoke;
+}
+
